@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+   <head>
+
+      <title>WarnerBros</title>
+      <meta charset=UTF-8>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initialize">
+      <link rel="stylesheet" href="login.css">
+      <link rel="shortcut icon" href="wb.jpeg">
+
+   </head>
+
+<!--Form container-->
+<div class="container">
+    <h2 class="main-heading">Log In</h2>
+    <hr>
+    
+    <!--form starts here-->
+    <form class="form-class">
+        
+        <!--Names-->
+        <div class="login-control">
+
+            <div class="heading-field">
+                <h2 class="field-head">Names</h2>
+            </div>
+        
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <input type="text" class="login-control-input" id="first-name" name="first name" required>
+                        <div id="first-name-help" class="help-text">Enter First Name</div>
+                    </div>
+                </div>
+
+                <div class="input-div">
+                    <input type="text" class="login-control-input" id="last-name" name="last name" required>
+                    <div id="last-name-help" class="help-text">Enter Last Name</div>
+                </div>
+        </div>
+        <!--Names End Here-->
+
+        <!--Address-->
+        <div class="form-control">
+
+            <div class="heading-field">
+                <h2 class="field-head">Address</h2>
+            </div>
+
+               <div>
+                    <div class="input-div">
+                        <input type="text" class="login-control-input" id="street-addres" name="street address" required>
+                        <div id="street-address-help" class="help-text">Enter House Number</div>
+                    </div>
+                </div>
+
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <input type="text" class="login-control-input" id="city-name" name="city" required>
+                        <div id="city-name-help" class="help-text">City</div>
+                    </div>
+                </div>
+
+                <div class="input-div">
+                    <select class="login-control-input" name="country">
+                        <option value="#">....</option>
+                        <option value="angola">Angola</option>
+                        <option value="botswana">Botswana</option>
+                        <option value="the cosmoros">the Cosmoros</option>
+                        <option value="eswatini">Eswatini</option>
+                        <option value="lesotho">Lesotho</option>
+                        <option value="madagascar">Madagascar</option>
+                        <option value="malawi">Malawi</option>
+                        <option value="mauritius">Mauritius</option>
+                        <option value="mozambique">Mozambique</option>
+                        <option value="namibia">Namibia</option>
+                        <option value="south africa">South Africa</option>
+                        <option value="zambia">Zambia</option>
+                        <option value="zimbabwe">Zimbabwe</option>
+                    </select>
+                    <div id="country-help" class="help-text">Country</div>
+                </div>
+        </div>
+        <!--Address Ends Here-->
+
+        <!--Contact Info-->
+        <div class="login-control">
+            <div class="heading-field">
+                <h2 class="field-head">Contact</h2>
+            </div>
+            
+            <div class="field-inputs">
+                <div class="input-div">
+                    <input type="tel" class="login-control-input" id="first-name" name="contact" required>
+                    <div id="tel-name-help" class="help-tel">Phone</div>
+                </div>
+            </div>
+
+            <div class="input-div">
+                <input type="text" class="login-control-input" id="email-address" name="email" required>
+                <div id="email-address-help" class="help-text">Email</div>
+            </div>
+
+            <div class="input-div">
+                <input type="text" class="login-control-input" id="password" name="password" required>
+                <div id="password-help" class="help-text">Enter Password</div>
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <!--Form Ends Here-->
+</div>
+<!--Form Container Ends Here-->
